@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href="css/paraphrase_css.css">
+  <link rel = "stylesheet" type="text/css" href="css/bootstrap_css.css">
+  <script src = "js/requestAPI.js"></script>
+</head>
+<body>
+  <div class="main-div">
+    <div class="desc-div">
+      <p>Dynamic Loops Paraphrase API Demo</p>
+    </div>
+
+    <div class="form__group">
+      <textarea id="texttbt" class="form__field" placeholder="Your Message" rows="4" onkeyup="passingToAPI()"></textarea>
+      <label for="texttbt" class="form__label">Your Text</label>
+    </div>
+
+    <br/>
+
+    <div class="output-div">
+      <p id="translatedText">Paraphrased Text</p>
+      <output id="output" for="texttbt"> </output>
+    </div>
+  </div>
+
+</body>
+</html>

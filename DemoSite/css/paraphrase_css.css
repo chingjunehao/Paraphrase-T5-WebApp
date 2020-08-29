@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+
+body{
+  background-color: #fcfcfc;
+}
+
+.main-div{
+  height: 55%;
+  width:40%;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);  
+}
+
+.desc-div{
+  font-family: 'Roboto', sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: #5726d8;
+}
+
+/*Start of input*/
+#texttbt{
+  height: 30%;
+  overflow:auto;
+  padding-left: 1%;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #d2d2d2;
+  outline: 0;
+  font-size: 16px;
+  color: #212121;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 16px;
+  cursor: text;
+  top: 20px;
+}
+
+label,
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+.form__field:focus ~ .form__label {
+  color: #7642ff;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #7642ff;
+}
+/*end of input*/
+#translatedText{
+  color: #7642ff;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.output-div{
+  height: 80%;
+}
+
+#output{
+  height: 47%;
+  max-width: 100%;
+  max-height: 47%;
+  background: #e0d5fb;
+  font-family: sans-serif;
+  font-size: large;
+  overflow: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+output{
+  padding-top: 1%;
+  padding-left: 1%;
+}
